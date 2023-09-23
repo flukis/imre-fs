@@ -76,7 +76,7 @@ impl Args {
         Self {
             file_name: file_name.to_string(),
             message: message.to_string(),
-            arg_type: arg_type,
+            arg_type,
         }
     }
 }
